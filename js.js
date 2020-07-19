@@ -4,7 +4,7 @@ let available=false;
 let errors=0;
 let word;
 let winer=0;
-let arr_words=["МЯЧ","БОРЯ","ТЕРЕМОК","АКВАПАРК","ХАЙТЕК","МАЙНКРАФТ","ЩУКА","ПРОПАСТЬ","ОГУРЕЦ","ЖОРА"]
+let arr_words=["МЯЧ","БОРЯ","ТЕРЕМОК","АКВАПАРК","ХАЙТЕК","МАЙНКРАФТ","ЩУКА","ПРОПАСТЬ","ОГУРЕЦ","ЖОРА","ШАР"]
 function randomazer(){
 	let random=Math.floor(Math.random()*(arr_words.length-1));
 	word=arr_words[random];
