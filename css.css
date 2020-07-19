@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+body,html{
+	margin: 0;
+	height: 100%;
+	
+}
+body{
+	display: flex;
+	flex-wrap: wrap;
+	align-content: center;
+	justify-content: center;
+}
+.game{
+	background-color: #5FD8FC;
+	height: 600px;
+	width: 1200px;
+	/*margin: auto;*/
+	display: flex;
+	position: relative;
+}
+.visiliza{
+height: 500px;
+	width: 400px;
+	background-color: #44444F;
+	margin: auto;
+}
+.pole{
+height: 500px;
+	width: 700px;
+	background-color: #44442F;
+	margin: auto;
+	display: flex;
+	flex-direction: column; 
+}
+.word{
+	height: 80px;
+	width: 600px;
+	background-color: #44449F;
+	margin: auto;
+	display: flex;
+	justify-content: center;
+    align-items: center;
+}
+.knopku{
+	height: 350px;
+	width: 700px;
+	background-color: #44649F;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: space-around;
+
+}
+.bukva{
+	height: 50px;
+	width: 50px;
+	background-color: #41949F;
+    margin-right: 10px;
+    font-size: 40px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    line-height: 50px;
+}
+.button{
+	height: 55px;
+	width: 55px;
+    margin-right: 10px;
+    margin-left: 10px;
+    font-size: 40px;
+    border: none;
+}
+img{
+	height:100%
+}
+.button:hover{
+	background-color: #5C5C5C;
+	cursor: pointer;
+}
+.button:disabled{
+	background-color: #DDDDDD;
+	cursor: default;
+}
+.game_over{
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	/*display: flex;*/
+	background-color: #000000;
+	flex-direction: column;
+    display: none;
+}
+.game_over img{
+	width: 800px;
+	margin: auto;
+    height: auto;
+}
+.game_over button{
+	height: 30px;
+	width: 500px;
+	margin: auto;
+}
+.game_over p{
+	color: white;
+	margin: auto;
+	font-family: 'Open Sans', sans-serif;
+}
+.game_win{
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	background-color: #000000;
+	flex-direction: column;
+	display: none;
+}
+.game_win img{
+	width: 800px;
+	margin: auto;
+    height: auto;
+}
+.game_win button{
+	height: 30px;
+	width: 500px;
+	margin: auto;
+}
+.game_win p{
+	color: white;
+	margin: auto;
+	font-family: 'Open Sans', sans-serif;
+}
+#name{
+	text-align: center;
+	width: 100%;
+	margin: 0;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 45px;
+	color: #4DA34D;
+}
